@@ -351,7 +351,7 @@ margin: 2em auto 0em auto;
 
 .resultaten section {
    display: flex;
-   flex-wrap: nowrap;
+   flex-wrap: wrap;
    gap: 0em;
    justify-content: center;
    align-items: stretch;

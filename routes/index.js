@@ -11,6 +11,7 @@ const profiel = require('./profiel');
 const update = require('./update');
 const form = require('./form');
 const matches = require('./matches');
+const list = require('./list');
 
 router.use('/', home);
 router.use('/login', login);
@@ -22,6 +23,7 @@ router.use('/profiel', profiel);
 router.use('/update', update);
 router.use('/form', form);
 router.use('/matches', matches);
+router.use('/list', list);
 router.use('*', error);
 
 

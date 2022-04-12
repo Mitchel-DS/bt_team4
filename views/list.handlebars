@@ -1,0 +1,19 @@
+<article class="resultaten">
+
+<h1>{{title}}</h1>
+<h2>{{scholen.length}} beschikbare opleidingen</h2>
+
+<section class="matches">
+{{#each scholen}}
+<!--voor elk resultaat wordt een card gemaakt met de info-->
+<section class="card">
+  <h3>{{name}}</h3>
+    <ul>
+      <li> <p>Locatie: </p> {{locatie}}</li>
+      <li> <p>Niveau: </p> {{niveau}}</li>
+      <li> <p>Onderwerpen: </p>{{onderwerpen}}</li>
+    </ul>
+    <a href="/chat">Chat met onze opleiding</a> <!--verbinden met een room id om naar chat te gaan-->
+</section>
+{{/each}}
+</article>
